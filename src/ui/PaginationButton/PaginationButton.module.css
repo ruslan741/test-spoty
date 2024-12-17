@@ -1,0 +1,41 @@
+button.button {
+  position: relative;
+  width: 173px;
+  height: 68px;
+  font-size: 20px;
+  font-family: inherit;
+  border-radius: 20px;
+  background-color: var(--buttonBg);
+  color: inherit;
+  font-weight: 600;
+  overflow: hidden;
+  border: 2px solid transparent;
+  z-index: 1;
+  cursor: pointer;
+  transition: border 0.15s ease-in-out;
+}
+
+button.button.active {
+  border: 2px solid var(--activeButtonBg);
+}
+
+button.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--activeButtonBg);
+  z-index: 0;
+  transition: width 0.15s ease-in-out;
+}
+
+button.button:active::before {
+  width: 100%;
+}
+
+button.button span {
+  position: relative;
+  z-index: 1;
+}

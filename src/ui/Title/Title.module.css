@@ -1,0 +1,10 @@
+.container {
+  font-size: 56px;
+  line-height: 71.85px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #7b8ac4 0%, #6ce1c6 50%, #26a4a0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

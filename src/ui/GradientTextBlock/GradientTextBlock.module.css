@@ -1,0 +1,14 @@
+.container {
+  width: 1107px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span.lastText {
+  font-weight: 300;
+}

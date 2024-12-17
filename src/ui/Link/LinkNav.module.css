@@ -1,0 +1,17 @@
+button.button {
+  font-size: 34px;
+  line-height: 106%;
+  padding: 22px 0px 22px 30px;
+  width: 340px;
+  min-height: 88px;
+  border-radius: 20px;
+  text-align: start;
+  background-color: var(--buttonBg);
+  color: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+button.button.active {
+  background-color: var(--activeButtonBg);
+}

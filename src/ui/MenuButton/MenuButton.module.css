@@ -1,0 +1,10 @@
+button.button {
+  font-size: 28px;
+  width: 490px;
+  height: 114px;
+  border-radius: 20px;
+  background-color: var(--activeButtonBg);
+  color: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}

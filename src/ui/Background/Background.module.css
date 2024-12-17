@@ -1,0 +1,40 @@
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 68px;
+  left: 85px;
+  z-index: 1;
+}
+
+.qrCode {
+  position: absolute;
+  bottom: 105px;
+  right: 119px;
+  z-index: 1;
+}
+
+.containerPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 170px;
+  width: 100%;
+  height: 100%;
+}
+
+.containerPage.smallGap {
+  gap: 138px;
+}

@@ -1,0 +1,6 @@
+.container {
+  font-size: 33px;
+  line-height: 64px;
+  color: var(--chooseBlock);
+  margin-bottom: 44px;
+}

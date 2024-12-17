@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+
+.container.bold {
+  width: 100%;
+  font-family: "SBSansDisplay", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.06px;
+}
+
+.container.small {
+  font-size: 18px;
+  line-height: normal;
+}
